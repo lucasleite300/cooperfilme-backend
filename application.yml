@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/cooperfilme
+    username: cooperfilme
+    password: cooperfilme234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  servlet:
+    context-path: /api
+server:
+  port: 8080
